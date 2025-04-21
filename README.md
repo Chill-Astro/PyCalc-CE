@@ -12,6 +12,10 @@ Features Include :
 - Update check Support. ✅
 - Fully Self-Contained so no .NET 8.0 Runtime Needed! [ At the Cost of File Size. ].
 
+To Run on Linux : 
+
+`chmod +x /path/PyCalc-CSE ` and then `/path/PyCalc-CSE`
+
 Preview [ FEDORA 42 VM ] :
 
 ![image](https://github.com/user-attachments/assets/99e1b376-a8ce-4437-96ed-c8f676e6c8dc)
