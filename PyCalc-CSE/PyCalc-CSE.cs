@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Text;
 class PyCalc_CSE
 {
-    private const string UPDATE_VERSION_URL = "https://gist.githubusercontent.com/Chill-Astro/e8c32d9a2b30780e3b6fd2819a51b330/raw/PyC_V.txt";
+    private const string UPDATE_VERSION_URL = "https://gist.githubusercontent.com/Chill-Astro/880c6eae8285897b20b45a275f06f008/raw/PyCCS_V.txt";
     private const string CURRENT_VERSION = "1.0";
     private static readonly HttpClient client = new HttpClient();
     static async Task Main(string[] args)
@@ -151,16 +151,16 @@ class PyCalc_CSE
 
             if (latest.CompareTo(current) > 0)
             {
-                Console.WriteLine($"A NEW version of PyCalc-CSE is Available!\n");                
+                Console.WriteLine($"Woohoo! A NEW version of PyCalc-CSE is Available!\n");                
                 Console.WriteLine("Please visit github.com/Chill-Astro/PyCalc to download the latest release!\n");
             }
             else if (latest.CompareTo(current) == 0)
             {
-                Console.WriteLine("PyCalc-CSE is up to date!\n");
+                Console.WriteLine("Hurrah! PyCalc-CSE is up to date!\n");
             }
             else
             {
-                 Console.WriteLine("This appears to be a DEV. Build.\n");
+                 Console.WriteLine("WARNING! This appears to be a DEV. Build.\n");
             }
         }
         catch (HttpRequestException e)
