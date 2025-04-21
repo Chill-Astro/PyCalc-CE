@@ -1,6 +1,6 @@
 PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#! [ In Dev. ]
 
-CE - C# Edition
+CSE - C# [ CSharp ] Edition
 
 Features Include :
 
@@ -15,6 +15,6 @@ Installation and Requirements :
 
 - Any system with .NET SDK installed [ For building ].
 - Build the file in any IDE / Code Editior.
-- No installation needed if using PyCalc-CE.exe on Windows Systems!
+- No installation needed if using PyCalc-CE.exe on Windows Systems or PyCalc-CE for Linux Systems!
 
 Simple! Powerful! Lightweight!
