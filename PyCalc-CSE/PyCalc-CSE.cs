@@ -13,7 +13,7 @@ class PyCalc_CSE
         Console.WriteLine("PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#!");
         Console.WriteLine($"Version : {CURRENT_VERSION}\n");
         await CheckForUpdatesAsync(); // Call the async update check
-        Console.WriteLine("\nSelect a Mathematical Operation : ");
+        Console.WriteLine("Select a Mathematical Operation : ");
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
         Console.WriteLine("3. Multiplication");
@@ -151,34 +151,34 @@ class PyCalc_CSE
 
             if (latest.CompareTo(current) > 0)
             {
-                Console.WriteLine($"🎉 A NEW version of PyCalc-CSE is Available!\n");                
+                Console.WriteLine($"A NEW version of PyCalc-CSE is Available!\n");                
                 Console.WriteLine("Please visit github.com/Chill-Astro/PyCalc to download the latest release!\n");
             }
             else if (latest.CompareTo(current) == 0)
             {
-                Console.WriteLine("🎉 PyCalc-CSE is up to date!\n");
+                Console.WriteLine("PyCalc-CSE is up to date!\n");
             }
             else
             {
-                 Console.WriteLine("⚠️ This appears to be a DEV. Build.\n");
+                 Console.WriteLine("This appears to be a DEV. Build.\n");
             }
         }
         catch (HttpRequestException e)
         {
-            Console.WriteLine("⚠️ Could not check for updates. Please check your internet connection.");
+            Console.WriteLine("Could not check for updates. Please check your internet connection.");
             Console.WriteLine($"Error: {e.Message}\n");
         }
         catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
         {
-             Console.WriteLine("⚠️ Update check timed out. Please check your internet connection.\n");
+             Console.WriteLine("Update check timed out. Please check your internet connection.\n");
         }
         catch (FormatException)
         {             
-             Console.WriteLine("⚠️ Could not parse the version from the update source.\n");         
+             Console.WriteLine("Could not parse the version from the update source.\n");         
         }
         catch (Exception e)
         {            
-            Console.WriteLine("⚠️ An unexpected error occurred during the update check.");
+            Console.WriteLine("An unexpected error occurred during the update check.");
             Console.WriteLine($"Error: {e.Message}\n");        
         }         
     }   
