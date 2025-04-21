@@ -9,6 +9,7 @@ Features Include :
 - Highly Powerful and extendible. ✅
 - Fast and Error-Proof Calculations. ✅
 - High Precision for decimals. ✅
+- Update check Support. ✅
 
 Installation and Requirements :
 
