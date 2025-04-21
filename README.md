@@ -1,4 +1,4 @@
-PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#!
+PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#! [ In Dev. ]
 
 CE - C# Edition
 
