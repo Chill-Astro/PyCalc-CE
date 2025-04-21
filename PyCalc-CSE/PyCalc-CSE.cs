@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Globalization; 
+using System.Text;
 class PyCalc_CSE
 {
     private const string UPDATE_VERSION_URL = "https://gist.githubusercontent.com/Chill-Astro/e8c32d9a2b30780e3b6fd2819a51b330/raw/PyC_V.txt";
@@ -9,11 +10,9 @@ class PyCalc_CSE
     private static readonly HttpClient client = new HttpClient();
     static async Task Main(string[] args)
     {
-        Console.WriteLine("PyCalc : A Simple and Lightweight Calculator. Made in C#!");
+        Console.WriteLine("PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#!");
         Console.WriteLine($"Version : {CURRENT_VERSION}\n");
-
         await CheckForUpdatesAsync(); // Call the async update check
-
         Console.WriteLine("\nSelect a Mathematical Operation : ");
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
@@ -36,8 +35,7 @@ class PyCalc_CSE
         Console.WriteLine("19. Curved Surface Area [Various Shapes]");
         Console.WriteLine("20. Diagonal Calculation [Various Shapes]");
         Console.WriteLine("21. Factorial Calculator");
-        Console.WriteLine("22. Exit PyCalc");
-
+        Console.WriteLine("22. Exit PyCalc-CSE\n");
         while (true)
         {
             Console.Write("Enter choice [ 1 - 22 ] : ");
@@ -92,19 +90,19 @@ class PyCalc_CSE
                     PerformPerimeterCalculations();
                     break;
                 case "16":
-                    PerformAreaCalculations(); // Placeholder call
+                    PerformAreaCalculations();
                     break;
                 case "17":
-                    PerformVolumeCalculations(); // Placeholder call
+                    PerformVolumeCalculations();
                     break;
                 case "18":
-                    PerformSurfaceAreaCalculations(); // Placeholder call
+                    PerformSurfaceAreaCalculations();
                     break;
                 case "19":
-                    PerformCurvedSurfaceAreaCalculations(); // Placeholder call
+                    PerformCurvedSurfaceAreaCalculations();
                     break;
                 case "20":
-                    PerformDiagonalCalculations(); // Placeholder call
+                    PerformDiagonalCalculations();
                     break;
                 case "21":
                     CalculateFactorial();
@@ -116,7 +114,6 @@ class PyCalc_CSE
                     Console.WriteLine("Please enter a Valid Input!\n");
                     continue;
             }
-
             string nextCalc;
             do
             {
@@ -154,12 +151,12 @@ class PyCalc_CSE
 
             if (latest.CompareTo(current) > 0)
             {
-                Console.WriteLine($"🎉 A NEW version of PyCalc-CSE is Available!");                
-                Console.WriteLine("Please visit github.com/Chill-Astro/PyCalc to download the latest release!");
+                Console.WriteLine($"🎉 A NEW version of PyCalc-CSE is Available!\n");                
+                Console.WriteLine("Please visit github.com/Chill-Astro/PyCalc to download the latest release!\n");
             }
             else if (latest.CompareTo(current) == 0)
             {
-                Console.WriteLine("🎉 PyCalc-CSE is up to date!");
+                Console.WriteLine("🎉 PyCalc-CSE is up to date!\n");
             }
             else
             {
@@ -169,20 +166,20 @@ class PyCalc_CSE
         catch (HttpRequestException e)
         {
             Console.WriteLine("⚠️ Could not check for updates. Please check your internet connection.");
-            Console.WriteLine($"Error: {e.Message}");
+            Console.WriteLine($"Error: {e.Message}\n");
         }
         catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
         {
-             Console.WriteLine("⚠️ Update check timed out. Please check your internet connection.");
+             Console.WriteLine("⚠️ Update check timed out. Please check your internet connection.\n");
         }
         catch (FormatException)
         {             
-             Console.WriteLine("⚠️ Could not parse the version from the update source.");         
+             Console.WriteLine("⚠️ Could not parse the version from the update source.\n");         
         }
         catch (Exception e)
         {            
             Console.WriteLine("⚠️ An unexpected error occurred during the update check.");
-            Console.WriteLine($"Error: {e.Message}");        
+            Console.WriteLine($"Error: {e.Message}\n");        
         }         
     }   
     private static void PerformBinaryOperation(string operatorSymbol, Func<double, double, double> operationFunc)
@@ -911,7 +908,6 @@ class PyCalc_CSE
              Console.WriteLine($"An error occurred during surface area calculation: {ex.Message}\n");
          }
     }
-
      private static void PerformCurvedSurfaceAreaCalculations()
     {
          Console.WriteLine("Curved Surface Area Calculation [Various Shapes]\n" +
@@ -973,7 +969,6 @@ class PyCalc_CSE
              Console.WriteLine($"An error occurred during curved surface area calculation: {ex.Message}\n");
          }
     }
-
     private static void PerformDiagonalCalculations()
     {
         Console.WriteLine("Diagonal Calculation [Various Shapes]\n" +
@@ -986,7 +981,6 @@ class PyCalc_CSE
         Console.Write("Enter shape choice [ 1 - 4 ] : "); // Corrected range from 5 to 4
         string sch = Console.ReadLine();
         Console.WriteLine();
-
         try
         {
             switch (sch)
