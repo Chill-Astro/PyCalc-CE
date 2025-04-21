@@ -14,7 +14,7 @@ Features Include :
 
 To Run on Linux : 
 
-`chmod +x /path/PyCalc-CSE ` and then `/path/PyCalc-CSE`
+`chmod +x /path/PyCalc-CSE ` and then `/path/PyCalc-CSE` <-- Replace path with the actual directory.
 
 Preview [ FEDORA 42 VM ] :
 
