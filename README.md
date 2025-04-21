@@ -10,6 +10,7 @@ Features Include :
 - Fast and Error-Proof Calculations. ✅
 - High Precision for decimals. ✅
 - Update check Support. ✅
+- Fully Self-Contained so no .NET 8.0 Runtime Needed! [ At the Cost of File Size. ].
 
 Installation and Requirements :
 
