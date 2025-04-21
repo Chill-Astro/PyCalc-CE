@@ -1,2 +1,0 @@
-C:\Users\Master\Chill-Astro\PyCalc-CSE\PyCalc-CSE\bin\Release\net9.0\win-x64\publish\PyCalc-CSE.pdb
-C:\Users\Master\Chill-Astro\PyCalc-CSE\PyCalc-CSE\bin\Release\net9.0\win-x64\publish\PyCalc-CSE.exe

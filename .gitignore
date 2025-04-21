@@ -1,0 +1,22 @@
+# Ignore build results and object files
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Ignore Visual Studio temporary files, packages, etc.
+*.suo
+*.user
+*.atsln.user
+*.vspscc
+*.vsscc
+.idea/
+.vs/
+
+# Ignore NuGet packages
+packages/
+# Ignore the NuGet cache directory (global packages)
+# %USERPROFILE%\.nuget\packages
+# ~/.nuget/packages
+**/bin/
+**/obj/
