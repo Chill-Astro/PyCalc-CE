@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PyCalc-CSE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+640b34e1d306dde32f5ce6be0625ddba1d59f78e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+057da55e04fd355c9495ee98a1bebd97699a91cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PyCalc-CSE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PyCalc-CSE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
