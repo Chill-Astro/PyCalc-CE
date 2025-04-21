@@ -13,7 +13,7 @@ class PyCalc_CSE
         Console.WriteLine("PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#!");
         Console.WriteLine($"Version : {CURRENT_VERSION}\n");
         await CheckForUpdatesAsync(); // Call the async update check
-        Console.WriteLine("Select a Mathematical Operation : ");
+        Console.WriteLine("Select a Mathematical Operation : \n");
         Console.WriteLine("1. Addition");
         Console.WriteLine("2. Subtraction");
         Console.WriteLine("3. Multiplication");
