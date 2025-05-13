@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Chill-Astro/PyCalc-CE/blob/main/PyCalc-CE.ico" width="128px" height="128px" alt="Calculator Logo">
+  <img src="https://github.com/Chill-Astro/PyCalc-CE/blob/main/Pycalc-CE.ico" width="128px" height="128px" alt="Calculator Logo">
 </p>
 <h1 align="center">PyCalc-CE v1.1</h1>
 
