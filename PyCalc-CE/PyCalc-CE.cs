@@ -3,14 +3,14 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Globalization; 
 using System.Text;
-class PyCalc_CSE
+class PyCalc_CE
 {
     private const string UPDATE_VERSION_URL = "https://gist.githubusercontent.com/Chill-Astro/880c6eae8285897b20b45a275f06f008/raw/PyCCS_V.txt";
-    private const string CURRENT_VERSION = "1.0";
+    private const string CURRENT_VERSION = "1.1";
     private static readonly HttpClient client = new HttpClient();
     static async Task Main(string[] args)
     {
-        Console.WriteLine("PyCalc-CSE : A Simple and Lightweight Calculator. Now in C#!");
+        Console.WriteLine("PyCalc-CE : A Simple and Lightweight Calculator. Now in C#!");
         Console.WriteLine($"Version : {CURRENT_VERSION}\n");
         await CheckForUpdatesAsync(); // Call the async update check
         Console.WriteLine("Select a Mathematical Operation : \n");
@@ -35,7 +35,7 @@ class PyCalc_CSE
         Console.WriteLine("19. Curved Surface Area [Various Shapes]");
         Console.WriteLine("20. Diagonal Calculation [Various Shapes]");
         Console.WriteLine("21. Factorial Calculator");
-        Console.WriteLine("22. Exit PyCalc-CSE\n");
+        Console.WriteLine("22. Exit PyCalc-CE\n");
         while (true)
         {
             Console.Write("Enter choice [ 1 - 22 ] : ");
@@ -151,7 +151,7 @@ class PyCalc_CSE
 
             if (latest.CompareTo(current) > 0)
             {
-                Console.WriteLine($"Woohoo! A NEW version of PyCalc-CSE is Available!\n");                
+                Console.WriteLine($"Woohoo! A NEW version of PyCalc-CE is Available!\n");                
                 Console.WriteLine("Please visit github.com/Chill-Astro/PyCalc to download the latest release!\n");
             }
             else if (latest.CompareTo(current) == 0)

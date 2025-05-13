@@ -1,13 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>PyCalc_CSE</RootNamespace>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>PyCalc_CE</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-    <PublishSingleFile>true</PublishSingleFile>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Pycalc-CE.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Pycalc-CE.ico" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
+
 </Project>
