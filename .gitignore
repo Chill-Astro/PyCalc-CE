@@ -20,3 +20,4 @@ packages/
 # ~/.nuget/packages
 **/bin/
 **/obj/
+Output/
