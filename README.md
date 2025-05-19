@@ -23,7 +23,7 @@ PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's eas
 
 Replace path with the actual directory.
 
-    /path/PyCalc-CSE
+    /path/PyCalc-CE
 
 
 ---
