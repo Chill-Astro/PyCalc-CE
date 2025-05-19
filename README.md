@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/Chill-Astro/PyCalc-CE/blob/main/Pycalc-CE.ico" width="128px" height="128px" alt="Calculator Logo">
 </p>
-<h1 align="center">PyCalc-CE v1.1</h1>
+<h1 align="center">PyCalc-CE v1.2</h1>
 
 PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's easy to publish to various OSes and Architectures.
 
@@ -13,7 +13,14 @@ PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's eas
 - Fast and Error-Proof Calculations. ✅
 - High Precision for decimals. ✅
 - Update check Support. ✅
+- Available for Windows, Linux & MacOS. ✅
 - Fully Self-Contained so no .NET 8.0 Runtime Needed! [ At the Cost of File Size. ]. ✅
+
+---
+
+## Install PyCalc-CE from Winget : 
+
+    winget install PyCalc-CE
 
 ---
 
@@ -25,6 +32,7 @@ Replace path with the actual directory.
 
     /path/PyCalc-CE
 
+For Macos : ¯\_(ツ)_/¯
 
 ---
 
@@ -38,6 +46,6 @@ Replace path with the actual directory.
 
 - Any system with .NET SDK installed [ For building ].
 - Build the file in any IDE / Code Editior.
-- No installation needed if using PyCalc-CE.exe on Windows Systems or PyCalc-CE for Linux Systems!
+- No installation needed if using PyCalc-CE.exe on Windows Systems or PyCalc-CE for Linux & MacOS Systems!
 
 ---
