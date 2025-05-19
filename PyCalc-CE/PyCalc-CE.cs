@@ -6,7 +6,7 @@ using System.Text;
 class PyCalc_CE
 {
     private const string UPDATE_VERSION_URL = "https://gist.githubusercontent.com/Chill-Astro/880c6eae8285897b20b45a275f06f008/raw/PyCCS_V.txt";
-    private const string CURRENT_VERSION = "1.1";
+    private const string CURRENT_VERSION = "1.2";
     private static readonly HttpClient client = new HttpClient();
     static async Task Main(string[] args)
     {
