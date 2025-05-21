@@ -24,15 +24,15 @@ PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's eas
 
 ---
 
-## To Run on Linux : 
+## To Run on Linux & MacOS : 
 
-    chmod +x /path/PyCalc-CSE 
+    chmod +x /<path>/PyCalc-CE 
 
 Replace path with the actual directory.
 
-    /path/PyCalc-CE
+    .//<path>/PyCalc-CE
 
-For Macos : ¯\_(ツ)_/¯
+Do note, you may need to run as Superuser using sudo.
 
 ---
 
