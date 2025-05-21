@@ -28,11 +28,12 @@ PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's eas
 
     chmod +x /<path>/PyCalc-CE 
 
-Replace path with the actual directory.
-
     .//<path>/PyCalc-CE
 
-Do note, you may need to run as Superuser using sudo.
+
+Replace <path> with the actual directory.
+
+Note : You may need to run as Superuser using sudo.
 
 ---
 
