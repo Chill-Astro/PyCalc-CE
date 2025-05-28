@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">PyCalc-CE v1.2</h1>
 
-PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's easy to publish to various OSes and Architectures.
+PyCalc - C# Edition [ CE ] is a faster version of PyCalc written fully in C#! It's available for Windows [ x64 ], Linux [ x64 ] & MacOS [ x64 & Arm64 ].
 
 ## Key Features :
 
@@ -33,8 +33,7 @@ PyCalc - C# Edition [ CE ] is a spin of PyCalc but written fully in C#! It's eas
 
 Replace <path> with the actual directory.
 
-Note : You may need to run as Superuser using sudo.
-
+Note : You may need to run as Superuser using sudo! On MacOS, you may need to modify some permissions under Privacy and Security!
 ---
 
 ## Preview [ FEDORA 42 VM ] :
