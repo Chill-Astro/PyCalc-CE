@@ -34,6 +34,7 @@ PyCalc - C# Edition [ CE ] is a faster version of PyCalc written fully in C#! It
 Replace <path> with the actual directory.
 
 Note : You may need to run as Superuser using sudo! On MacOS, you may need to modify some permissions under Privacy and Security!
+
 ---
 
 ## Preview [ FEDORA 42 VM ] :
